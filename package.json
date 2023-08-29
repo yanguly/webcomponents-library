@@ -1,0 +1,41 @@
+{
+  "name": "simple-web-components",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Librairy and config to simplify web components development",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "web-dev-server --open",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [
+    "web-components"
+  ],
+  "author": "yanguly",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@web/dev-server": "^0.3.0",
+    "@web/dev-server-esbuild": "^0.4.1",
+    "@web/dev-server-rollup": "^0.5.2",
+    "@web/rollup-plugin-html": "^2.0.0",
+    "babel-plugin-template-html-minifier": "^4.1.0",
+    "esbuild": "^0.19.2",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.2",
+    "rimraf": "^5.0.1",
+    "rollup": "^3.28.1",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "rollup-plugin-workbox": "^8.0.1"
+  }
+}
